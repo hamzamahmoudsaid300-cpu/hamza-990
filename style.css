@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 95%;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:none ;
+    background-color: #1c1c1c;
+    color: whitesmoke;
+}
+h1{
+    margin: 20px 0;
+}
+.addform{
+    width: 70%;
+    padding: 50px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+.add{
+    width: 20%;
+    height: 60px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(0, 109, 255);
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.add:hover{
+    background-color: rgb(0, 90, 255);
+    outline: 1px solid rgb(0, 90, 255);
+}
+.taskbox{
+    width: 70%;
+    margin: 20px 0;
+}
+h3{
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.task{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+.task button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:none ;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.task button:hover{
+    background-color: #1c1c1c;
+}
+.task:hover{
+    background-color: #cccccc;
+    color: #1c1c1c;
+}
+footer{
+    width:95%;
+    padding: 10px;
+    border-top: 1px solid #cccccc;
+    text-align: center;
+}
+.done{
+    background-color: rgb(202, 66, 66);
+    width: 90%;
+}
+.done h4{
+    text-decoration: line-through;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>TODO APP</h2>
+        <div>
+            <button onclick="bgcolor('red')">R</button>
+            <button onclick="bgcolor('whitesmoke')">W</button>
+            <button onclick="bgcolor('#1c1c1c')">B</button>
+        </div>
+    </header>
+    <h1><span id="title"></span></h1>
+  
+    <div class="addform">
+        <input type="text" id="taskinput" placeholder="Add your task">
+        <button onclick="addtask()" class="add">+</button>
+    </div>
+    <div class="taskbox" id="taskbox">
+        <h3>My tasks:</h3>
+        
+    </div>
+    <footer>
+        thank you for using my app
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
